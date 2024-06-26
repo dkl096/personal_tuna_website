@@ -1,0 +1,19 @@
+{
+    "mediacorpIntern" : [
+        "Contributed to 2 internal AI application programming projects.",
+        "Developed a RESTful API for company-wide internal AI application.",
+        "Participated in 3 research projects on AI and machine learning.",
+        "Collaborated with the team on design thinking workshop."
+    ],
+
+    "kikkomanResearch" : [
+        "Contributed to 4 patented research projects.",
+        "Actively participated in collaborative research with 3 research institutions."
+    ],
+
+    "educationNUS": ["Recipient of ASEAN full scholarship."],
+
+    "educationNUSISS" : ["GPA: 4.5/5.0", "Software Analysis & Design", "Machine Learning Applications","Web Application Development", "Mobile Application Development"],
+
+    "courseGA001" : ["Data Analytics Course (2020)"]
+}

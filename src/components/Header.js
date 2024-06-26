@@ -28,8 +28,13 @@ function Header() {
                 </a>
               </li>
               <li>
-                <a className="nav-link" href="/about">
+                <a className="nav-link" href="/About">
                   About
+                </a>
+              </li>
+              <li>
+                <a className="nav-link" href="/">
+                  Career
                 </a>
               </li>
               <li>
@@ -39,7 +44,7 @@ function Header() {
               </li>
               <li>
                 <a className="nav-link" href="/">
-                  Contact Me
+                  Contact
                 </a>
               </li>
             </ul>

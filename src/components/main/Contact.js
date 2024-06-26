@@ -1,50 +1,44 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
-    <div className="container-fluid" style={{ padding: "5%" }}>
-      <div className="card text-center">
-        <div className="card-header">
-          <ul className="nav nav-tabs card-header-tabs">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="true" href="#">
-                Work Experience
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link disabled"
-                href="#"
-                tabIndex="-1"
-                aria-disabled="true"
-              >
-                Disabled
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="card-body">
-          {experiences.map((experience, index) => (
-            <div key={index} className="row mb-4">
-              <div className="col-md-8 offset-md-2">
-                <div className="card">
-                  <div className="card-body">
-                    <h5 className="card-title">{experience.company}</h5>
-                    <h6 className="card-subtitle mb-2 text-muted">
-                      {experience.position}
-                    </h6>
-                    <p className="card-text">{experience.duration}</p>
-                    <p className="card-text">{experience.description}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+    <div
+      className="full-page-section py-3"
+      style={{ height: "auto", backgroundColor: "#ac9593" }}
+    >
+      <div className="container">
+        <div className="text-center mb-2">
+          <div
+            className="mb-2"
+            style={{ fontSize: "1.5rem", fontWeight: "bold" }}
+          >
+            Contact Me
+          </div>
+          <div className="mb-2">
+            <a
+              href="https://github.com/dkl096"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ margin: "0 10px 0 10px" }}
+            >
+              <FontAwesomeIcon icon={faGithub} size="2x" color="black" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dianklianto/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ margin: "0 10px 0 10px" }}
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="2x" color="black" />
+            </a>
+          </div>
+          <div>
+            <FontAwesomeIcon icon={faEnvelope} size="m" color="black" />
+            <span style={{ marginLeft: '10px' }}>dianklianto@gmail.com</span>
+          </div>
         </div>
       </div>
     </div>

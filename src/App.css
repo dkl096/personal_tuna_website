@@ -60,6 +60,27 @@ html, body{
   padding: 20px;
 }
 
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 2em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 2em;
+}
+
 .lato-thin {
   font-family: "Lato", sans-serif;
   font-weight: 100;
